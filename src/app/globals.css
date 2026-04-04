@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply min-h-screen bg-void text-slate-200 antialiased;
+  /* Base tone; WebGL network + radial gradient live in NetworkCanvasBackground */
+  background-color: #050508;
+}
+
+@layer utilities {
+  .glass-panel {
+    @apply rounded-2xl border border-white/[0.08] bg-white/[0.03] shadow-glass backdrop-blur-xl;
+    background-image: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.06) 0%,
+      rgba(255, 255, 255, 0.02) 40%,
+      rgba(34, 211, 238, 0.04) 100%
+    );
+  }
+
+  .text-gradient-electric {
+    @apply bg-gradient-to-r from-electric-glow via-electric to-electric-dim bg-clip-text text-transparent;
+  }
+
+  .noise-overlay {
+    pointer-events: none;
+    opacity: 0.035;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+}

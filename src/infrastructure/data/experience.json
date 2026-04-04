@@ -1,0 +1,99 @@
+[
+  {
+    "id": "venturial",
+    "company": "Venturial",
+    "role": "Senior Full-Stack Engineer",
+    "periodLabel": "Current",
+    "employmentType": "current",
+    "summary": "Event-driven crypto platform: Technical Lead-level ownership of services, APIs, and cloud operations.",
+    "highlights": [
+      "Event-driven microservices and NestJS platforms",
+      "GraphQL APIs and AWS-native delivery",
+      "Technical Lead collaboration across squads"
+    ],
+    "responsibilities": "As a Senior Full-Stack Engineer operating with Technical Lead responsibility, I own end-to-end delivery on a secure crypto platform: service design, integration contracts, production operations, and mentoring engineers through code review and architecture decisions. I balance deep backend work with polished React/TypeScript experiences, keeping reliability and observability first as traffic and feature complexity grow.",
+    "keyContributions": [
+      "Designed and shipped event-driven microservices (NestJS) with clear domain boundaries and resilient messaging patterns.",
+      "Led GraphQL API evolution and performance tuning for high-read workloads while coordinating with frontend teams on schema and caching strategy.",
+      "Drove AWS operational excellence: CI/CD hardening, infrastructure-as-code patterns, and incident-ready observability.",
+      "Acted as Technical Lead on critical initiatives—aligning stakeholders, sequencing delivery, and unblocking teams without compromising security."
+    ],
+    "techStack": [
+      "NestJS",
+      "GraphQL",
+      "TypeScript",
+      "React",
+      "Node.js",
+      "AWS",
+      "Docker",
+      "Event-driven architecture"
+    ],
+    "sortOrder": 0
+  },
+  {
+    "id": "beyondid",
+    "company": "BeyondID",
+    "role": "Principal Developer",
+    "periodLabel": "Previous",
+    "employmentType": "past",
+    "summary": "Principal Developer and Technical Lead for enterprise IAM: OIDC, SCIM, and 40M+ user migrations.",
+    "highlights": [
+      "40M+ user migration programs",
+      "OIDC / SCIM / Spring Batch at scale",
+      "Technical Lead for customer delivery"
+    ],
+    "responsibilities": "As Principal Developer with Technical Lead accountability, I led architecture and delivery for enterprise identity programs: OIDC/SAML integrations, SCIM lifecycle automation, and large-scale user migrations. I partnered with customer architects, mentored distributed teams, and translated complex IdP requirements into secure, maintainable Java/Spring services and batch pipelines.",
+    "keyContributions": [
+      "Owned Technical Lead delivery for IAM programs integrating with Auth0-class ecosystems and major enterprise IdPs (Okta, Azure AD patterns).",
+      "Executed a 40M+ user migration initiative using Spring Batch with rigorous validation, rollback strategy, and operational runbooks.",
+      "Delivered SCIM provisioning and OIDC authorization flows meeting enterprise security and compliance expectations.",
+      "Optimized API and batch performance on Node.js/NestJS and Java/Spring Boot paths, improving throughput and operational cost.",
+      "Mentored engineers on clean layering, testing discipline, and production readiness for regulated customers."
+    ],
+    "techStack": [
+      "Java",
+      "Spring Boot",
+      "Spring Batch",
+      "SCIM",
+      "OIDC",
+      "SAML",
+      "Node.js",
+      "NestJS",
+      "PostgreSQL",
+      "AWS"
+    ],
+    "sortOrder": 1
+  },
+  {
+    "id": "dacompsc",
+    "company": "DacompSC",
+    "role": "Full-Stack Engineer & Technical Lead (Consulting)",
+    "periodLabel": "Previous",
+    "employmentType": "past",
+    "summary": "Consulting delivery for fintech and digital banking clients: IAM, APIs, and Technical Lead guidance on engagements.",
+    "highlights": [
+      "Fintech and digital banking engagements",
+      "OAuth/OIDC integration programs",
+      "Technical Lead on client squads"
+    ],
+    "responsibilities": "At DacompSC I led full-stack delivery for enterprise clients in fintech and digital banking, operating as Technical Lead on engagements spanning identity modernization, API platforms, and secure customer channels. I translated business and compliance needs into executable roadmaps, coordinated cross-functional teams, and kept architecture aligned with Clean Architecture and long-term maintainability.",
+    "keyContributions": [
+      "Served as Technical Lead on multi-phase projects: discovery, design reviews, sprint planning, and hands-on implementation across Java and React/TypeScript stacks.",
+      "Delivered OAuth 2.0 / OIDC and SSO programs for regulated environments, including MFA rollout patterns and session hardening.",
+      "Built and integrated REST APIs and admin tooling for banking workflows, emphasizing auditability and operational clarity.",
+      "Mentored client developers and optimized delivery workflows using modern tooling and AI-assisted development where appropriate."
+    ],
+    "techStack": [
+      "Java",
+      "Spring",
+      "React",
+      "TypeScript",
+      "REST APIs",
+      "OAuth 2.0",
+      "OIDC",
+      "PostgreSQL",
+      "Fintech / Digital Banking"
+    ],
+    "sortOrder": 2
+  }
+]

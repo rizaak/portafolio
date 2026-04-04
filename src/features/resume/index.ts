@@ -1,0 +1,10 @@
+export { Biography } from "./Biography";
+export { ClientShowcase } from "./ClientShowcase";
+export { HeroVisual } from "./HeroVisual";
+export { HeroSection } from "./HeroSection";
+export { NetworkCanvasBackground } from "./NetworkCanvasBackground";
+export { ScrollReveal } from "./ScrollReveal";
+export { ImpactMetricsGrid } from "./ImpactMetricsGrid";
+export { ProfessionalExperience } from "./ProfessionalExperience";
+export { ProfessionalTimeline } from "./ProfessionalTimeline";
+export { IdentityCapabilities } from "./IdentityCapabilities";

@@ -1,0 +1,9 @@
+[
+  {
+    "id": "placeholder-portfolio",
+    "name": "Portfolio Platform",
+    "description": "This site — Next.js App Router, DDD-style core, repository abstraction for Phase 2 backend.",
+    "techStack": ["Next.js 14", "TypeScript", "Tailwind CSS", "Framer Motion"],
+    "sortOrder": 0
+  }
+]

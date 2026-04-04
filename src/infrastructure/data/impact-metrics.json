@@ -1,0 +1,26 @@
+[
+  {
+    "id": "users-migration",
+    "headline": "40M+ Users",
+    "subline": "Large-scale migrations using Spring Batch.",
+    "sortOrder": 0
+  },
+  {
+    "id": "iam-clients",
+    "headline": "40+ Clients",
+    "subline": "Successfully delivered IAM (OIDC/SAML) solutions.",
+    "sortOrder": 1
+  },
+  {
+    "id": "api-perf",
+    "headline": "30% Performance Gain",
+    "subline": "API optimization using Node.js / NestJS.",
+    "sortOrder": 2
+  },
+  {
+    "id": "sdlc",
+    "headline": "10+ Years",
+    "subline": "Full SDLC leadership from design to deployment.",
+    "sortOrder": 3
+  }
+]

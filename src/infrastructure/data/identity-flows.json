@@ -1,0 +1,23 @@
+[
+  {
+    "id": "oidc-enterprise",
+    "name": "Enterprise OIDC Federation",
+    "protocol": "OIDC",
+    "description": "Authorization Code + PKCE flows with enterprise IdP trust boundaries.",
+    "sortOrder": 0
+  },
+  {
+    "id": "saml-sso",
+    "name": "SAML SSO Bridges",
+    "protocol": "SAML",
+    "description": "SP-initiated SSO with attribute mapping and session hardening.",
+    "sortOrder": 1
+  },
+  {
+    "id": "scim-provisioning",
+    "name": "SCIM User Lifecycle",
+    "protocol": "SCIM",
+    "description": "Automated provisioning/deprovisioning aligned with HR and security policies.",
+    "sortOrder": 2
+  }
+]
