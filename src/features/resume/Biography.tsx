@@ -13,7 +13,7 @@ function Kw({ children }: { children: React.ReactNode }) {
 export function Biography() {
   return (
     <section
-      className="relative px-6 pb-12 pt-4 sm:px-10 sm:pb-16 lg:px-16"
+      className="relative min-w-0 max-w-full overflow-x-hidden px-6 pb-12 pt-4 sm:px-10 sm:pb-16 lg:px-16"
       aria-labelledby="biography-heading"
     >
       <ScrollReveal>

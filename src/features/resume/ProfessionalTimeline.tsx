@@ -9,8 +9,11 @@ type Props = {
 
 export function ProfessionalTimeline({ experiences }: Props) {
   return (
-    <section className="relative px-6 pb-28 sm:px-10 lg:px-16" aria-label="Professional experience">
-      <div className="mx-auto max-w-3xl">
+    <section
+      className="relative min-w-0 max-w-full overflow-x-hidden px-6 pb-28 sm:px-10 lg:px-16"
+      aria-label="Professional experience"
+    >
+      <div className="mx-auto w-full min-w-0 max-w-3xl">
         <motion.h2
           className="mb-4 text-center text-2xl font-semibold tracking-tight text-white sm:text-3xl"
           initial={{ opacity: 0, y: 12 }}
@@ -38,8 +41,8 @@ export function ProfessionalTimeline({ experiences }: Props) {
             <motion.li
               key={exp.id}
               className="relative"
-              initial={{ opacity: 0, x: -12 }}
-              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, y: 14 }}
+              whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-60px" }}
               transition={{ delay: index * 0.08, duration: 0.45 }}
             >

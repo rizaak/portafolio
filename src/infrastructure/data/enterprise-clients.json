@@ -1,0 +1,112 @@
+[
+  {
+    "id": "airbnb",
+    "name": "Airbnb",
+    "industry": "tech_global",
+    "featured": true,
+    "sortOrder": 0
+  },
+  {
+    "id": "retailmenot",
+    "name": "RetailMeNot",
+    "industry": "tech_global",
+    "sortOrder": 1
+  },
+  {
+    "id": "dataminer",
+    "name": "Dataminar",
+    "industry": "tech_global",
+    "sortOrder": 2
+  },
+  {
+    "id": "phoenix",
+    "name": "Phoenix",
+    "industry": "tech_global",
+    "sortOrder": 3
+  },
+  {
+    "id": "proofpoint",
+    "name": "Proofpoint",
+    "industry": "cyber_cloud",
+    "sortOrder": 10
+  },
+  {
+    "id": "echo",
+    "name": "ECHO",
+    "industry": "cyber_cloud",
+    "sortOrder": 11
+  },
+  {
+    "id": "idue",
+    "name": "IDue",
+    "industry": "cyber_cloud",
+    "sortOrder": 12
+  },
+  {
+    "id": "ommacash",
+    "name": "Ommacash",
+    "industry": "fintech_finance",
+    "sortOrder": 20
+  },
+  {
+    "id": "tedcu",
+    "name": "TDECU",
+    "industry": "fintech_finance",
+    "sortOrder": 21
+  },
+  {
+    "id": "mmbb-financial",
+    "name": "MMBB Financial",
+    "industry": "fintech_finance",
+    "sortOrder": 22
+  },
+  {
+    "id": "reverse-mortgage-funding",
+    "name": "Reverse Mortgage Funding",
+    "industry": "fintech_finance",
+    "sortOrder": 23
+  },
+  {
+    "id": "uplift",
+    "name": "Uplift",
+    "industry": "fintech_finance",
+    "sortOrder": 24
+  },
+  {
+    "id": "acima",
+    "name": "Acima",
+    "industry": "fintech_finance",
+    "sortOrder": 25
+  },
+  {
+    "id": "heb",
+    "name": "HEB",
+    "industry": "retail_enterprise",
+    "featured": true,
+    "sortOrder": 30
+  },
+  {
+    "id": "yunius",
+    "name": "Yunius",
+    "industry": "retail_enterprise",
+    "sortOrder": 31
+  },
+  {
+    "id": "bend-health",
+    "name": "Bend Health",
+    "industry": "healthcare_life",
+    "sortOrder": 40
+  },
+  {
+    "id": "amerilife",
+    "name": "Amerilife",
+    "industry": "healthcare_life",
+    "sortOrder": 41
+  },
+  {
+    "id": "illinois-iit",
+    "name": "Illinois IIT",
+    "industry": "education",
+    "sortOrder": 50
+  }
+]

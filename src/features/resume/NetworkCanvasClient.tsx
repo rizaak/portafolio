@@ -3,7 +3,7 @@
 import { Canvas } from "@react-three/fiber";
 import { useMotionValueEvent, useScroll } from "framer-motion";
 import { Suspense, useEffect, useRef } from "react";
-import { InteractiveNetwork } from "./InteractiveNetwork";
+import { DeepSpaceScene } from "./DeepSpaceScene";
 
 export default function NetworkCanvasClient() {
   const scrollRef = useRef(0);
@@ -41,7 +41,7 @@ export default function NetworkCanvasClient() {
       }}
     >
       <Suspense fallback={null}>
-        <InteractiveNetwork scrollRef={scrollRef} mouseRef={mouseRef} />
+        <DeepSpaceScene scrollRef={scrollRef} mouseRef={mouseRef} />
       </Suspense>
     </Canvas>
   );

@@ -17,9 +17,12 @@ const protocolStyles: Record<IdentityFlow["protocol"], string> = {
 
 export function IdentityCapabilities({ flows }: Props) {
   return (
-    <section className="relative px-6 pb-28 sm:px-10 lg:px-16" aria-label="IAM capabilities">
+    <section
+      className="relative min-w-0 max-w-full overflow-x-hidden px-6 pb-28 sm:px-10 lg:px-16"
+      aria-label="IAM capabilities"
+    >
       <ScrollReveal>
-        <div className="mx-auto max-w-6xl">
+        <div className="mx-auto w-full min-w-0 max-w-6xl">
           <h2
             className="mb-4 text-center font-mono text-xs uppercase tracking-[0.2em] text-slate-400"
             style={{ textShadow: "0 2px 20px rgba(0,0,0,0.75)" }}

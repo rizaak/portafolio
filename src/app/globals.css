@@ -6,8 +6,18 @@
   color-scheme: dark;
 }
 
+html {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   @apply min-h-screen bg-void text-slate-200 antialiased;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  overflow-x: hidden;
   /* Base tone; WebGL network + radial gradient live in NetworkCanvasBackground */
   background-color: #050508;
 }

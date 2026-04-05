@@ -31,5 +31,11 @@
     "label": "Digital Banking",
     "kind": "sector",
     "sortOrder": 4
+  },
+  {
+    "id": "healthcare-life-sciences",
+    "label": "Healthcare & Life Sciences",
+    "kind": "sector",
+    "sortOrder": 5
   }
 ]

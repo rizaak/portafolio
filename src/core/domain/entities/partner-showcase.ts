@@ -9,5 +9,7 @@ export interface PartnerShowcaseItem {
   kind: PartnerShowcaseKind;
   /** Maps to branded icon in UI when kind is technology. */
   iconKey?: "auth0" | "okta" | "aws";
+  /** Sector impact line (HIPAA, regulated delivery, etc.). */
+  impactText?: string;
   sortOrder: number;
 }

@@ -44,6 +44,8 @@ const config: Config = {
       animation: {
         "pulse-slow": "pulse 5s cubic-bezier(0.4, 0, 0.6, 1) infinite",
         marquee: "marquee 42s linear infinite",
+        "marquee-enterprise": "marquee 72s linear infinite",
+        "marquee-enterprise-slow": "marquee 96s linear infinite",
       },
     },
   },

@@ -10,8 +10,11 @@ type Props = {
 
 export function ImpactMetricsGrid({ metrics }: Props) {
   return (
-    <section className="relative px-6 pb-20 sm:px-10 lg:px-16" aria-label="Impact metrics">
-      <div className="mx-auto max-w-6xl">
+    <section
+      className="relative min-w-0 max-w-full overflow-x-hidden px-6 pb-20 sm:px-10 lg:px-16"
+      aria-label="Impact metrics"
+    >
+      <div className="mx-auto w-full min-w-0 max-w-6xl">
         <motion.h2
           className="mb-10 text-center font-mono text-xs uppercase tracking-[0.2em] text-slate-400"
           initial={{ opacity: 0, y: 12 }}

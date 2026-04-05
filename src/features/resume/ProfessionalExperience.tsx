@@ -29,11 +29,11 @@ export function ProfessionalExperience({ experiences }: Props) {
 
   return (
     <section
-      className="relative px-6 pb-24 sm:px-10 lg:px-16"
+      className="relative min-w-0 max-w-full overflow-x-hidden px-6 pb-24 sm:px-10 lg:px-16"
       aria-labelledby="professional-experience-heading"
     >
       <ScrollReveal>
-        <div className="mx-auto max-w-4xl">
+        <div className="mx-auto w-full min-w-0 max-w-4xl">
           <h2
             id="professional-experience-heading"
             className="text-center text-2xl font-semibold tracking-tight text-white sm:text-3xl"
